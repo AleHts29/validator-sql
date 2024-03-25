@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
+	"github.com/AleHts29/validator-sql.git/internal/domain"
+	gormvalidator "github.com/AleHts29/validator-sql.git/pkg/validator/gorm"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"log"
 	"reflect"
 	"time"
-	"validator-slq/internal/domain"
-	gormvalidator "validator-slq/pkg/validator/gorm"
 )
 
 func main() {

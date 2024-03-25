@@ -1,4 +1,4 @@
-module validator-slq
+module github.com/AleHts29/validator-sql.git
 
 go 1.20
 
